@@ -104,3 +104,10 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+html {
+  background: url(/Users/Jodie/Desktop/coding_course/greghelp/shipstonmuseum/shipston.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
