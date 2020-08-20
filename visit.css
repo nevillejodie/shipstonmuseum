@@ -46,7 +46,8 @@ h5 {
 }
 
 .card-text {
-  color:  white
+  color:  white;
+  font-weight: bold;
 }
 
 .cover-container {
@@ -108,6 +109,18 @@ h5 {
 /* .wrapper .card {
   flex: 1;
 } */
+
+.info{
+  display: flex;
+}
+
+.info .times {
+  flex: 1;
+}
+
+.info .btns {
+  flex: 1;
+}
 /*
  * Cover
  */
