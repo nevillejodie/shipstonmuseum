@@ -43,6 +43,9 @@ body {
   max-width: 42em;
 }
 
+a {
+  font-weight: bold;
+}
 
 /*
  * Header
