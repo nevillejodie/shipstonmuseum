@@ -18,33 +18,27 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
-
 /*
  * Base structure
  */
 
 html,
 body {
-
   background-color: #333;
   background-size: cover;
 }
 
 body {
- /*  display: -ms-flexbox;
-  display: flex; */
+  display: -ms-flexbox;
+  display: flex;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.address {
-/*   margin-top: 50px; */
-}
 
 .card-link {
-  color: black
+  color: fuchsia
 }
 
 h5 {
@@ -52,17 +46,14 @@ h5 {
 }
 
 .card-text {
-  color:  black
+  color:  white;
+  font-weight: bold;
 }
 
 .cover-container {
   max-width: 42em;
 }
 
-.card {
-  align-content: center;
-  margin-left: 25%;
-}
 
 /*
  * Header
@@ -78,7 +69,7 @@ h5 {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: #000000;
+  color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -106,7 +97,30 @@ h5 {
   }
 }
 
+.wrapper {
+  display:flex;
+}
 
+.wrapper .iframe {
+  flex: 1;
+  
+}
+
+/* .wrapper .card {
+  flex: 1;
+} */
+
+.info{
+  display: flex;
+}
+
+.info .times {
+  flex: 1;
+}
+
+.info .btns {
+  flex: 1;
+}
 /*
  * Cover
  */
@@ -131,11 +145,6 @@ h1 {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  margin-bottom: -10%;
 }
-html {
-  background: url(/Users/Jodie/Desktop/coding_course/greghelp/shipstonmuseum/shipston.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
