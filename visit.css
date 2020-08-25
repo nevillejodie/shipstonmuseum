@@ -54,6 +54,14 @@ h5 {
   max-width: 42em;
 }
 
+img {
+  float: left;
+}
+
+p {
+  font-weight: bold;
+margin-right: 5%;
+}
 
 /*
  * Header
