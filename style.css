@@ -18,7 +18,9 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
+.logo{
+  margin-top: 0%;
+}
 
 /*
  * Base structure
@@ -42,6 +44,11 @@ body {
   max-width: 42em;
 }
 
+.navbar-brand {
+  position: absolute;
+  top: 0;
+  margin-right: 150;
+}
 
 /*
  * Header
@@ -61,6 +68,7 @@ body {
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
+
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
