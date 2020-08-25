@@ -21,11 +21,12 @@ a:hover {
 .logo{
   margin-top: 0%;
 }
-
-/*
- * Base structure
- */
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    display: none;
+  }
+}
 html,
 body {
   height: 100%;
