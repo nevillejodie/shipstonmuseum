@@ -47,6 +47,7 @@ body {
 .navbar-brand {
   position: absolute;
   top: 0;
+  margin-right: 150;
 }
 
 /*
@@ -67,6 +68,7 @@ body {
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
+
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
