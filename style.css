@@ -31,7 +31,7 @@ a:hover {
 @media only screen and (max-width: 320px) {
   /* For mobile phones: */
   [class*="lead"] {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
@@ -137,7 +137,7 @@ h1 {
   color: rgba(255, 255, 255, .5);
 }
 html {
-  background: url(/Users/Jodie/Desktop/coding_course/greghelp/shipstonmuseum/shipston.jpg) no-repeat center center fixed;
+  background: url(./shipston.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
