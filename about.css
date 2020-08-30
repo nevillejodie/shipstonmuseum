@@ -93,12 +93,19 @@ a {
   html,
   body {
     background-color: #333;
-    background-size: 100vw;
+   /*  width: 100vw */
+    
+   /*  background-size: 100vw;
     height: 1000px;
-    width: 100vw
+    width: 100vw */
   }
 }
-
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  [class*="text"] {
+    font-size: 10px;
+  }
+}
 /*
  * Cover
  */
@@ -123,11 +130,4 @@ h1 {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
-}
-html {
-  background: url(/Users/Jodie/Desktop/coding_course/greghelp/shipstonmuseum/shipston.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
