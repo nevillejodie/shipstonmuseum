@@ -29,6 +29,13 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  [class*="address"] {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   html,
   body {
