@@ -24,7 +24,12 @@ a:hover {
  * Base structure
  */
 
-
+html,
+body {
+  background-color: #333;
+  background-size: cover;
+  height: 100vh;
+}
 
 
 body {
@@ -33,8 +38,6 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  background-color: #333;
-  background-size: cover;
 }
 
 .cover-container {
@@ -66,7 +69,7 @@ a {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color:  #333 ;
+  border-bottom-color: rgba(255, 255, 255, .25);
 }
 
 .nav-masthead .nav-link + .nav-link {
